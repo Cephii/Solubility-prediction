@@ -1,0 +1,32 @@
+eSol数据清理思路：
+元数据分为两个文件，1）all_data_esol.tab包含所有基因编号、溶解度数据和其他实验数据；2）ecoli_W3110.faa为基因编号及其对应的氨基酸序列
+
+处理步骤：
+1、根据all_data_esol.tab中所有数据，根据基因JW编号，在uniprot数据进行映射。由于JW4065被同时mapping到了2个不同的Uniprot ID，仅保留了序列长度能匹配的一个；
+2、找出未能被JW编号映射的数据，命名为no mapping1，使用基因名“Gene name K-12”一列再次进行映射，仍未被映射到的称为no mapping2
+3、观察no mapping1的组成，由于数据中存在许多2个不同的JW编号对应同一个基因名的情况，观察fasta序列推测可能为截取某一基因的不同片段进行表达，因此no mapping中不仅存在JW ID和基因名都映射不到的，还有重复基因名的在mapping中被过滤掉了。因此下一步需要使用BlastP工具进行fasta氨基酸序列的比对。
+4、将no mapping1中所有重复基因名的序列（2条均使用）、以及no mapping2的序列（共39条），使用BlastP比对，分析其mapping到的uniprot的数据情况，是否为完整的序列，将覆盖度>90%的保留加入RE_map补充数据集（包含基因名重新映射的+BlastP得到的），同时删除实验序列fasta与Uniprot条目相比不完整的序列。
+5、将其中有Sol数据的取出作为训练数据集，得到“eSol_output.csv”
+6、在Uniprot ID映射到结构形成SA序列的时候，发现以下几个序列的Uniprot ID没有结构对应，因此重新进行BlastP换成有结构的ID，若没有能匹配的序列则删除。分别为：
+JW_ID		原Uniprot_ID		新Uniprot_ID        来源
+JW5838		P33369			    B7LA05              RE_map
+JW3236		P45766			    B7LHX7              Uniprot_mapping
+JW5179		P76000			    72/147 (不全删除)    RE_map
+替换和删除后删除后得到eSol_output_manual_renew.csv，用于转化SA和训练模型；并将以上三条在Uniprot_mapping和RE_map中更新，下次可以跳过renew步骤
+
+
+
+各步骤数据大小：
+原始数据            4132
+JW mapping          4048
+no mapping1         84
+基因名重复          2×15
+再次映射            59
+no mapping2         12
+RE_map              5
+得到                4048+55=4103
+有Sol训练数据集     3152
+删除替换后          3151
+
+7、为了能够与GATSol的数据集进行比较，保存了一版含"Genes", "Uniprot_ID", "eSol"的eSol_output_withGenes.csv，进行上述第6步renew后，与GATSol的train和test比对之后再转化为SA序列
+之后补充上GATSol train中有但我们处理后删除的8条数据SA信息，得到GATSol_train_SA.csv

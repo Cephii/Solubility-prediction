@@ -1,0 +1,60 @@
+From	Entry	Protein names	Length	Gene Names (primary)	AlphaFoldDB	PDB
+agaW	P42905	Putative N-acetylgalactosamine permease IIC component 2 (EIIC-Aga') (PTS system N-acetylgalactosamine-specific EIIC component 2)	133	agaW	P42905;	
+arpB	P76205	Putative ankyrin repeat protein B	157	arpB	P76205;	
+dcuC	P0ABP3	Anaerobic C4-dicarboxylate transporter DcuC	461	dcuC	P0ABP3;	
+gatA	P69828	PTS system galactitol-specific EIIA component (EIIB-Gat) (Galactitol-specific phosphotransferase enzyme IIA component)	150	gatA	P69828;	
+gatR	P36930	Putative galactitol utilization operon repressor	112	gatR	P36930;	
+glvG	P31450	Putative inactive 6-phospho-alpha-glucosidase	212	glvG	P31450;	
+ilvG	P0DP89	Putative acetolactate synthase isozyme 2 large subunit (AHAS-II) (ALS-II) (Acetohydroxy-acid synthase II large subunit)	327	ilvG	P0DP89;	
+ilvG	P0DP90	Acetolactate synthase isozyme 2 large subunit (AHAS-II) (EC 2.2.1.6) (ALS-II) (Acetohydroxy-acid synthase II large subunit)	548	ilvG	P0DP90;	
+molR	P33345	Protein YehF	274	yehF	P33345;	
+nmpC	P21420	Putative outer membrane porin protein NmpC	365	nmpC	P21420;	
+pbl	Q46790	Putative peptidoglycan-binding-like protein	158	pbl	Q46790;	
+phnE	P0DP70	Putative cryptic phosphonate transport system permease protein PhnE2	122	phnE	P0DP70;	
+tfaD	P77699	Protein TfaD (Tail fiber assembly protein homolog from lambdoid prophage DLP12)	187	tfaD	P77699;	
+tnaB	P23173	Low affinity tryptophan permease	415	tnaB	P23173;	
+wbbL	P36667	Rhamnosyltransferase WbbL (EC 2.4.1.-)	264	wbbL	P36667;	
+yaiF	P75697	Putative uncharacterized acetyltransferase YaiX (EC 2.3.1.-)	230	yaiX	P75697;	
+yaiT	P77199	Putative uncharacterized protein YaiT	968	yaiT	P77199;	
+yaiX	P75697	Putative uncharacterized acetyltransferase YaiX (EC 2.3.1.-)	230	yaiX	P75697;	
+ybcD	P77528	Putative protein PeaD	78	peaD	P77528;	
+ybfG	P37003	Putative uncharacterized protein YbfG	216	ybfG		
+ycdN	P75901	Putative inactive ferrous iron permease EfeU (Putative Fe(2+) ion permease EfeU)	276	efeU		
+ycgI	P76000	Putative uncharacterized protein YcgI	147	ycgI		
+ychG	P30192	Putative transposase InsZ	299	insZ	P30192;	
+yciX	P58094	Uncharacterized protein YciX	55	yciX	P58094;	
+ycjV	P77481	Putative uncharacterized ABC transporter ATP-binding protein YcjV	360	ycjV	P77481;	
+ydbA	P33666	Exported protein YdbA	852	ydbA	P33666;	
+ydiB	P0A6D5	Quinate/shikimate dehydrogenase (EC 1.1.1.282) (NAD-dependent shikimate 5-dehydrogenase)	288	ydiB	P0A6D5;	1NPD;1O9B;1VI2;
+yedS	P76335	Putative outer membrane protein YedS	161	yedS	P76335;	
+yeeL	P76349	Putative uncharacterized protein YeeL	234	yeeL	P76349;	
+yfaS	P76464	Putative alpha-2-macroglobulin homolog	1367	yfaS	P76464;	
+yfcT	P77196	Putative outer membrane usher protein YfcU	881	yfcU	P77196;	
+yfcU	P77196	Putative outer membrane usher protein YfcU	881	yfcU	P77196;	
+yfjV	A0A0S1EZS3	Arsenical pump membrane protein	66	yfjV	A0A0S1EZS3;	
+ygaQ	P76616	Putative uncharacterized protein YgaQ	750	ygaQ	P76616;	
+ygaR	P76616	Putative uncharacterized protein YgaQ	750	ygaQ	P76616;	
+ygaY	P76628	Putative uncharacterized transporter YgaY	394	ygaY	P76628;	
+ygeK	Q46791	Uncharacterized response regulatory protein YgeK	147	ygeK	Q46791;	
+ygeL	Q46791	Uncharacterized response regulatory protein YgeK	147	ygeK	Q46791;	
+ygeM	Q46793	Putative uncharacterized protein YgeN	235	ygeN	Q46793;	
+ygeN	Q46793	Putative uncharacterized protein YgeN	235	ygeN	Q46793;	
+yghY	Q7DFU6	Putative hydrolase fragment YghX	117	yghX	Q7DFU6;	
+yhcE	P45421	Putative uncharacterized protein YhcE	181	yhcE	P45421;	
+yifN	P56259	Putative uncharacterized protein YifN	149	yifN	P56259;	
+yjgX	P39349	Putative phosphoethanolamine transferase YjgX (EC 2.7.-.-)	119	yjgX	P39349;	
+yjhD	P39354	Putative uncharacterized protein YjhD	76	yjhD	P39354;	
+yjhE	P39355	Putative uncharacterized protein YjhE	82	yjhE	P39355;	
+ylbE	P77129	Uncharacterized protein YlbE	419	ylbE	P77129;	
+ymdE	Q7DFV4	Putative uncharacterized protein YmdE	107	ymdE	Q7DFV4;	
+ymgH	P76000	Putative uncharacterized protein YcgI	147	ycgI		
+ymjB	P77481	Putative uncharacterized ABC transporter ATP-binding protein YcjV	360	ycjV	P77481;	
+yncI	P76119	Putative transposase YncI	248	yncI	P76119;	
+yncM	P76119	Putative transposase YncI	248	yncI	P76119;	
+yncM	A0A3G0QC22	Transposase IS4-like domain-containing protein	66	yncM	A0A3G0QC22;	
+ynfP	P0DPP1	Protein YnfP	36	ynfP	P0DPP1;	
+yoeA	P76356	Protein YoeA	130	yoeA	P76356;	
+yohG	P33369	Putative multidrug resistance outer membrane protein MdtQ	478	mdtQ		
+yohH	P33369	Putative multidrug resistance outer membrane protein MdtQ	478	mdtQ		
+yqaC	P76616	Putative uncharacterized protein YgaQ	750	ygaQ	P76616;	
+yqaD	P76616	Putative uncharacterized protein YgaQ	750	ygaQ	P76616;	
