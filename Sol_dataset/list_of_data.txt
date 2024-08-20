@@ -1,0 +1,14 @@
+dataset_list and info.:
+
+1. Continuous datasets
+  1) eSol: ~70% of all E.coli ORFs expressed with cell-free translation system
+    total amount: 3173 
+  
+  2) NESG: 82% eubacterial, 12% archaebacterial, 6% human, and 0.3% from other eukaryotes, expressed in E. coli BL21(DE3)λ cells, T7 promoter, at 18 ℃
+    total amount: 9644
+
+  3) S. cerevisiae dataset: Selected yeast cytosol proteins with cell-free expression
+    total number: 578
+
+2. Binary datasets
+  1) 
